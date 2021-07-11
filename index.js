@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.send('SERVER IS RUNNING');
 })
 
-// const CONNECTION_URL = 'mongodb+srv://memoryadmin:K7mJRz7R9p4HCSvA@cluster0.jvk8v.mongodb.net/memories?retryWrites=true&w=majority';
+
 
 const PORT = process.env.PORT || 5000;
 
